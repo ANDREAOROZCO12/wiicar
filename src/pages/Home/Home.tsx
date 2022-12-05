@@ -29,9 +29,9 @@ const Home = () => {
   const swal = () => {
     Swal.fire({
       title: "Cargando",
-      html: '<div class="swal"> <img src="https://acegif.com/wp-content/uploads/loading-58.gif" alt="" /> <div><p class="swalTitle"></p><p>Espera un momento mientras procesamos los datos, esto puede tardar unos minutos</p></div></div>',
+      html: '<div class="swal"> <img src="https://acegif.com/wp-content/uploads/loading-12.gif" alt="" /> <div><p class="swalTitle">Cargue masivo</p><p>Espera un momento mientras procesamos los datos, esto puede tardar unos minutos</p></div></div>',
       showConfirmButton: false,
-      timer: 3000,
+      // timer: 3000,
     }).then(() => {
       window.location.replace("/carlist");
     });
