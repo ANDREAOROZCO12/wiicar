@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+interface IProps {
+  background?: string;
+}
+
 export const ContainerResult = styled.div`
   background-color: var(--w-white);
   padding: 20px;
@@ -86,7 +90,7 @@ export const ButtonPagination = styled.button`
   align-items: center;
   :hover {
     cursor: pointer;
-    background: var(--w-grey2);
+    background: ${(props: IProps) => props.background || "var(--w-white)"};
     border-radius: 50%;
   }
 `;
