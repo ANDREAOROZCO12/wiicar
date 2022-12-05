@@ -1,7 +1,6 @@
 import { Header } from "../../components/Header/Header";
 import { useState } from "react";
 import data from "../../data/data.json";
-import Footer from "../../components/Footer/Footer";
 import Result from "../../components/Results/Result";
 
 const CarList = () => {

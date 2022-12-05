@@ -31,4 +31,11 @@ export const Option = styled.option`
   color: black;
   font-size: 14px;
   text-align: center;
+
+  &:nth-child(1) {
+    display: none;
+  }
+  &:nth-child(6) {
+    color: var(--color-primary);
+  }
 `;

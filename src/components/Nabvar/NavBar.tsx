@@ -1,7 +1,7 @@
-import { GiMechanicGarage } from "react-icons/gi";
+import { MdOutlineCarRental,MdOutlineDirectionsCarFilled, MdRepeatOne,MdLocalOffer  } from "react-icons/md";
 import { ENavbar } from "../../model/enums";
 
-import { Service, ContainerNavBar } from "./Nabvar.styled";
+import { Service, ContainerNavBar} from "./Nabvar.styled";
 
 const NavBar = () => {
   return (
@@ -11,16 +11,16 @@ const NavBar = () => {
         color="var(--color-primary)"
         fontWeigth="bold"
       >
-        <GiMechanicGarage className="icon" /> {ENavbar.PR}
+        <MdOutlineCarRental className="icon" /> {ENavbar.PR}
       </Service>
       <Service>
-        <GiMechanicGarage className="icon" /> {ENavbar.AL}
+        <MdOutlineDirectionsCarFilled className="icon" /> {ENavbar.AL}
       </Service>
       <Service>
-        <GiMechanicGarage className="icon" /> {ENavbar.EN}
+        <MdLocalOffer className="icon" /> {ENavbar.EN}
       </Service>
       <Service>
-        <GiMechanicGarage className="icon" /> {ENavbar.VE}
+        <MdRepeatOne className="icon" /> {ENavbar.VE}
       </Service>
     </ContainerNavBar>
   );

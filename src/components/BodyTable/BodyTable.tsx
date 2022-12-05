@@ -29,7 +29,8 @@ const BodyTable : FunctionComponent<IProps> = ({sortedData}) => {
         </Td>
         <Select width="101px" height="32px">
           <Option value="0">Editar</Option>
-          <Option value="1">Almacenar</Option>
+          <Option value="1">Editar</Option>
+          <Option value="2">Almacenar</Option>
         </Select>
       </TrList>
     ))}

@@ -25,7 +25,7 @@ export const Thead = styled.thead``;
 export const Tr = styled.tr`
   width: 100%;
   display: grid;
-  grid-template-columns: 0fr 0fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr 1fr 1fr;
+  grid-template-columns: 0fr 0.38fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr 1fr 1fr;
   grid-gap: 1rem;
   align-items: center;
   height: 3.75rem;
@@ -34,12 +34,14 @@ export const Tr = styled.tr`
   border-radius: 0.375rem;
   padding: 0rem 1rem;
   
+  
 `;
 
 export const Th = styled.th`
   display: flex;
   gap: 0.625rem;
   align-items: center;
+  justify-content: center;
   .arrorUnsorted {
     font-size: 1rem;
     cursor: pointer;
@@ -54,7 +56,7 @@ export const Td = styled.td`
 export const TrList = styled.tr`
   width: 100%;
   display: grid;
-  grid-template-columns: 0fr 0fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr 1fr 1fr;
+  grid-template-columns: 0fr 0.38fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr 1fr 1fr;
   grid-gap: 1rem;
   align-items: center;
   height: 3.75rem;
