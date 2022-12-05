@@ -1,0 +1,35 @@
+.swal2-container {
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.swal2-title {
+  background: #f2f3f7 0% 0% no-repeat padding-box;
+  border-radius: 5px 5px 0px 0px;
+  height: 50px;
+  color: #c5cbda;
+  font-size: 16px;
+  text-align: left;
+}
+
+.swal{
+    display: flex;
+    gap: 20px;
+}
+.swal img{
+    width: 90px;
+height: 90px;
+background: #F2F3F7 0% 0% no-repeat padding-box;
+border-radius: 50%;
+}
+.swal h3{
+    color: #C5CBDA;
+font-size: 16px;
+text-align: left;
+}
+.swal p {
+    color: #000000;
+    font-size: 16px;
+    text-align: left;
+    padding-top: 10px;
+}
