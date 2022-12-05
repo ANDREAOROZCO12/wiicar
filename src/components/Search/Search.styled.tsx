@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Form = styled.form`
-  width: 70%;
+  width: 55%;
   height: 2.5rem;
   background: #ffffff 0% 0% no-repeat padding-box;
   border: 0.0625rem solid #c5cbda;
@@ -13,12 +13,14 @@ export const Form = styled.form`
   padding: 0rem 1rem;
   @media (min-width: 992px) {
     width: 24rem;
+    height: 35px;
   }
 `;
 
 export const Input = styled.input`
   border: transparent;
   outline: none;
+  width: 80%;
 
   &::placeholder {
     font-size: 14px;
@@ -33,7 +35,7 @@ export const Button = styled.button`
   background: white;
   #search{
 letter-spacing: 0px;
-color: #000000;
+color: var(--w-black);
 opacity: 1;
 font-size: 20px;
 

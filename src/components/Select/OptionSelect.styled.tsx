@@ -6,8 +6,8 @@ interface IProps {
 }
 
 export const Select = styled.select`
-  width: ${(props: IProps) => props.width || "70%"};
-  height: ${(props: IProps) => props.height || "40px"};
+  width: ${(props: IProps) => props.width || "30%"};
+  height: ${(props: IProps) => props.height || "35px"};
   background: var(--color-primary);
   border: 0.125rem solid var(--color-primary);
   border-radius: 3.125rem;
@@ -25,6 +25,7 @@ export const Select = styled.select`
   }
   @media (min-width: 992px) {
     width: ${(props: IProps) => props.width || "263px"};
+    height: ${(props: IProps) => props.height || "40px"};
   }
 `;
 export const Option = styled.option`

@@ -14,6 +14,7 @@ import { ContainerFooter } from "../Footer/Footer.styled";
 import HeadTablet from "../HeadTable/HeadTablet";
 import BodyTable from "../BodyTable/BodyTable";
 import useOrder from "../../hook/useOrder";
+import { ContainerPaginationMobile } from "../Pagination/Pagination.styled";
 
 const Result: FunctionComponent<IFooter> = ({
   data,
@@ -63,6 +64,7 @@ const Result: FunctionComponent<IFooter> = ({
       </ContainerResult>
 
       <ContainerFooter>
+        <ContainerPaginationMobile>
         <Search
           data={data}
           handleSubmit={handleSubmit}
@@ -77,6 +79,7 @@ const Result: FunctionComponent<IFooter> = ({
           id='paginationDesktop'
         />
         <OptionSelect handleChange={handleChange} options={options} />
+        </ContainerPaginationMobile>
         <Pagination
           paginate={paginate}
           currentPage={currentPage}

@@ -11,8 +11,8 @@ export const ContainerFooter = styled.div`
   box-shadow: 0rem -0.1875rem 0.375rem var(--w-black1);
   flex-direction: column;
   background: var(--w-white);
-  padding: 0.625rem 0rem;
-  gap: 15px;
+  padding: 0.3125rem 0rem;
+  gap: 0.3125rem;
   #paginationDesktop{
     display: none;
   }
