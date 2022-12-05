@@ -22,7 +22,7 @@
   background: var(--w-grey2) 0% 0% no-repeat padding-box;
   border-radius: 50%;
 }
-.swal h6 {
+.swal .swalTitle {
   color: var(--w-grey1);
   font-size: 1rem;
   text-align: left;
