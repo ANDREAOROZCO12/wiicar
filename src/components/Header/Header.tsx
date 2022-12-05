@@ -18,25 +18,7 @@ export const Header = () => {
     <Container>
       <HeaderContainer>
         <AiOutlineMenu id="menuIcon" />
-        <ButtonPagination
-          onClick={() =>
-            Swal.fire({
-              title: "¿Deseas regresar al inicio?",
-              showDenyButton: true,
-              showCancelButton: false,
-              confirmButtonText: `Si`,
-              denyButtonText: `No`,
-              confirmButtonColor: "var(--color-green)",
-              denyButtonColor: "var(--color-primary)",
-            }).then((result) => {
-              if (result.isConfirmed) {
-                window.location.replace("/");
-              } else {
-                window.location.replace("/carlist");
-              }
-            })
-          }
-        >
+        <ButtonPagination>
           <Link to="/">
             <Logo />
           </Link>
