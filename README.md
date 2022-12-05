@@ -26,6 +26,3 @@ Podemos iniciar nuestra aplicación con el comando
 
 `npm run start`
 
-### Importante!
-
-Dentro de la carpeta se encuentra un video con el nombre de wiicarVideo, mostrando la pagina funcional.

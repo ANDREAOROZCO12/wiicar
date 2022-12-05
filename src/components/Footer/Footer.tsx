@@ -8,6 +8,7 @@ import OptionSelect from "../Select/OptionSelect";
 import Pagination from "../Pagination/Pagination";
 
 import { ContainerFooter } from "./Footer.styled";
+import { ContainerPaginationMobile } from "../Pagination/Pagination.styled";
 
 const Footer: FunctionComponent<IFooter> = ({
   handleChange,
@@ -27,6 +28,7 @@ const Footer: FunctionComponent<IFooter> = ({
 
   return (
     <ContainerFooter>
+      <ContainerPaginationMobile>
       <Search
         data={data}
         handleSubmit={handleSubmit}
@@ -36,6 +38,7 @@ const Footer: FunctionComponent<IFooter> = ({
       <CantResult cont={cont} />
       <Pagination paginate={paginate} currentPage={1} pageNumbers={[1]} id='paginationDesktop' />
       <OptionSelect handleChange={handleChange} options={options} />
+      </ContainerPaginationMobile>
       <Pagination
         paginate={paginate}
         currentPage={1}

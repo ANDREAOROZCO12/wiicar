@@ -29,7 +29,7 @@ const Home = () => {
   const swal = () => {
     Swal.fire({
       title: "Cargando",
-      html: '<div class="swal"> <img src="https://acegif.com/wp-content/uploads/loading-12.gif" alt="" /> <div><h3>Cargue masivo</h3><p>Espera un momento mientras procesamos los datos, esto puede tardar unos minutos</p></div></div>',
+      html: '<div class="swal"> <img src="https://acegif.com/wp-content/uploads/loading-12.gif" alt="" /> <div><h6>Cargue masivo</h6><p>Espera un momento mientras procesamos los datos, esto puede tardar unos minutos</p></div></div>',
       showConfirmButton: false,
       timer: 3000,
     }).then(() => {
